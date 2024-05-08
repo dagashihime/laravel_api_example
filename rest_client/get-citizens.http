@@ -1,2 +1,2 @@
-GET http://localhost:8000/api/v1/citizens?firstname=qwe HTTP/1.1
+GET http://localhost:8000/api/v1/citizens HTTP/1.1
 content-type: application/json
