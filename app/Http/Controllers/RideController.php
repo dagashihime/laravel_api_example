@@ -18,7 +18,7 @@ class RideController extends Controller
         return response()->json($rides);
     }
 
-    public function create(RideCreateRequest $request)
+    public function create(RideCreateRequest $request): JsonResponse
     {
         $ride = new Ride;
         $ride->citizen_id = $request['citizen_id'];
