@@ -1,0 +1,8 @@
+POST http://localhost:8000/api/v1/rides HTTP/1.1
+content-type: application/json
+
+{
+    "citizen_id": 80,
+    "company_id": 8,
+    "length": 18
+}

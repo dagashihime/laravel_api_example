@@ -1,0 +1,2 @@
+PUT http://localhost:8000/api/v1/citizens/reset-budget HTTP/1.1
+content-type: application/json
